@@ -1,0 +1,9 @@
+{
+  "name": "glammed-by-dhee-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  },
+  "description": "Static HTML, CSS and JavaScript website for Glammed By Dhee"
+}
