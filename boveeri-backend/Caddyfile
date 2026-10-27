@@ -1,0 +1,7 @@
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy app:3000
+}
+www.{$DOMAIN} {
+	redir https://{$DOMAIN}{uri}
+}
